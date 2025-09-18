@@ -2,7 +2,7 @@ from google import genai
 from google.genai import types
 search_tool = types.Tool(google_search=types.GoogleSearch())
 
-# import wikipedia # Not used in your code, can be removed to keep it cleaner
+
 import discord
 import requests
 import random
